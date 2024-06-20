@@ -39,6 +39,7 @@ globalSets = {
     \new Staff \with {
        instrumentName = "Домра альт"
        shortInstrumentName = "Д. а."
+       midiInstrument = "banjo"
        }
        {\globalSets
         \alt}
@@ -46,7 +47,7 @@ globalSets = {
 \new Staff \with {
     instrumentName = "Баян"
     shortInstrumentName = "Б-н"
-    midiInstrument = "accordion"
+    midiInstrument = "harmonica"
     }
     {\globalSets
      \bayan}
@@ -61,7 +62,7 @@ globalSets = {
     \new Staff \with {
        instrumentName = "Балалайка"
        shortInstrumentName = "Б. пр."
-       midiInstrument = "violin"
+       midiInstrument = "acoustic guitar (nylon)"
        }
        {\globalSets
         \balalayka}

@@ -1,5 +1,5 @@
 \version "2.20.0"
-alt   = \relative c''{
+alt   = \relative c'{
 
 \repeat unfold 4 {r1}
 a16 a a a a a g g a a a a a a g g |
