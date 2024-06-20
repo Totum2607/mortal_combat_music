@@ -1,5 +1,5 @@
+\version "2.20.0"
 balalayka = \relative c'{
-\globalSets
 \repeat unfold 8 {r1}
 
 %1 mark ---------------------------------

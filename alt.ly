@@ -1,5 +1,6 @@
+\version "2.20.0"
 alt   = \relative c''{
-\globalSets
+
 \repeat unfold 4 {r1}
 a16 a a a a a g g a a a a a a g g |
 a16 a a a a a g g a a a a a a g g |
@@ -31,4 +32,5 @@ a8 r16 a~ a r a8 a16 a a8 a a |
 a8 r16 a~ a r a8 a16 a a8 a a |
 a8 r16 a~ a r a8 a16 a a8 a a |
 a8 r16 a~ a r a8 a16 a a8 a a |
+
 }

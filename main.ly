@@ -4,6 +4,7 @@
 
 title = "Mortal kombat"
 tagline = "Парафраз"
+copyright = "Парафраз"
 
 }
 
@@ -33,38 +34,44 @@ globalSets = {
        shortInstrumentName = "Д. м."
        midiInstrument = "violin"
       } 
-      {\domra}
+      {\globalSets
+       \domra}
     \new Staff \with {
        instrumentName = "Домра альт"
        shortInstrumentName = "Д. а."
        }
-       {\alt}
+       {\globalSets
+        \alt}
 >>
 \new Staff \with {
     instrumentName = "Баян"
     shortInstrumentName = "Б-н"
     midiInstrument = "accordion"
     }
-    {\bayan}
+    {\globalSets
+     \bayan}
 \new DrumStaff \with 
     {
     instrumentName = "Ударные"
     shortInstrumentName = "Уд."
     }
-    {\drumsSet}
+    {\globalSets
+     \drumsSet}
 \new StaffGroup <<
     \new Staff \with {
        instrumentName = "Балалайка"
        shortInstrumentName = "Б. пр."
        midiInstrument = "violin"
        }
-       \balalayka
+       {\globalSets
+        \balalayka}
     \new Staff \with {
      instrumentName = "Балалайка контрабас"
      shortInstrumentName = "Б. к-бас"
      midiInstrument = "acoustic bass"
       }
-       {\kontrabass}
+       {\globalSets
+        \kontrabass}
      >>
 
 >>

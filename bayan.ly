@@ -1,5 +1,5 @@
+\version "2.20.0"
 bayan = \relative c'' {
-\globalSets
 a8 a c a d a e' d | c c e c g' c, e c   |
 g g b g c g d' c  | f, f a f c' f, c' b | 
 a8 a c a d a e' d | c c e c g' c, e c   |

@@ -1,4 +1,4 @@
+\version "2.20.0"
 drumsSet = \drummode{
-\globalSets
 \repeat unfold 24 {r1}
 }

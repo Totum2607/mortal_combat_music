@@ -1,5 +1,5 @@
+\version "2.20.0"
 domra = \relative c''{
-\globalSets
 \repeat unfold 8 {r1}
 
 %1 mark ---------------------------------
