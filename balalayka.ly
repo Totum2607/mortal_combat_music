@@ -21,5 +21,33 @@ r8 <e a c> <e a c> r <e a c> r16 <e a c>~ <e a c> r <e a c> <e a c> |
 r8 <e a c> <e a c> r <e a c> r16 <e a c>~ <e a c> r <e a c> <e a c> |
 r8 <e a c> <e a c> r <e a c> r16 <e a c>~ <e a c> r <e a c> <e a c> |
 
+% Reptile Theme
+
+%3 mark ----------------------------------
+
+\mark \default
+
+\repeat unfold 8 {<f f>16-> <f f> <f f> <f f>-> 
+                  <f f> <f f> <f f>-> <f f>
+                  <f f> <f f>-> <f f> <f f>
+                  <ges ges>-> < ges ges> <ges ges>-> <ges ges>}
+
+%4 mark  ----------------------------------
+
+\mark \default
+
+\repeat unfold 8 {<f c'>16-> <f c'> <f c'> <f c'>-> 
+                  <f c'> <f c'> <f c'>-> <f c'>
+                  <f c'> <f c'>-> <f c'> <f c'>
+                  <ges des'>-> < ges des'> <ges des'>-> <ges des'>}
+
+%5 mark  ----------------------------------
+
+\mark \default
+
+\repeat unfold 8 {<f c'>16-> <f c'> <f c'> <f c'>-> 
+                  <f c'> <f c'> <f c'>-> <f c'>
+                  <f c'> <f c'>-> <f c'> <f c'>
+                  <ges des'>-> < ges des'> <ges des'>-> <ges des'>}
 }
 
