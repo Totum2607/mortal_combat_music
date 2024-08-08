@@ -16,13 +16,14 @@ a4. g8 a4. g8 a4. g8 a4. g8   |
 a4. g8 a4. g8 a4. g8 a4. g8  |
 a4. g8 a4. g8 a4. g8 a4. g8   |
 
-% Reptile Theme
-
-%3 mark ------------------------------------------
+%3 mark -------------------------------------
 
 \mark \default
 
-\repeat unfold 8 {r1}
+\repeat unfold 8 {a16 a~ a8 e8.~ d16~ 8 bes'8~ bes32~ a16.~ a8}
+
+
+% Reptile Theme
 
 %4 mark ------------------------------------------
 
@@ -31,6 +32,12 @@ a4. g8 a4. g8 a4. g8 a4. g8   |
 \repeat unfold 8 {r1}
 
 %5 mark ------------------------------------------
+
+\mark \default
+
+\repeat unfold 8 {r1}
+
+%6 mark ------------------------------------------
 
 \mark \default
 

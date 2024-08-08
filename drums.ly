@@ -14,17 +14,24 @@ drumsSet = \drummode{
 
 \mark \default
 
-\repeat unfold 8 {bd8 hhp bd hhp bd hhp bd hhp}
+\repeat unfold 8 {bd8 hhp <bd sn> hhp bd hhp <bd sn> hhp}
+
+%3 mark -------------------------------------
+
+\mark \default
+
+\repeat unfold 8 {bd8 hhp <bd sn> hhp bd hhp <bd sn> hhp}
+
 
 % Reptile Theme
 
-%3 mark ------------------------------------------
+%4 mark ------------------------------------------
 
 \mark \default
 
 \repeat unfold 8 {r1}
 
-%4 mark ------------------------------------------
+%5 mark ------------------------------------------
 
 \mark \default
 
@@ -34,13 +41,13 @@ drumsSet = \drummode{
                   hh   hh-> hh hh hh-> hh hh32-> hh hh hh |
 }
 
-%5 mark ------------------------------------------
+%6 mark ------------------------------------------
 
 \mark \default
 
 \repeat unfold 8 {bd8 hhp bd hhp bd hhp bd hhp}
 
-%6 mark ------------------------------------------
+%7 mark ------------------------------------------
 
 \mark \default
 

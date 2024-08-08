@@ -25,22 +25,21 @@ a16 e'8 a,16 c8 a16 bes16~ bes a16 c8 bes16 c a8 |
 a16 e'8 a,16 c8 a16 bes16~ bes a16 c8 bes16 c a8 |
 a16 e'8 a,16 c8 g16 g~ g a16 a8 a8 r |
 
+%3 mark -------------------------------------
+
+\mark \default
+
+\repeat unfold 8 {r1}
+
+
 % Reptile Theme
 
-%3 mark ------------------------------------
+%4 mark ------------------------------------
 
 \mark \default
 
 \repeat unfold 4 {r1}
 \repeat unfold 4 {<f, f'>1~}
-
-%4 mark -------------------------------------
-
-\mark \default
-
-\repeat unfold 4 {r1}
-\repeat unfold 3 {<f f'>1~}
-<f f'>                       |
 
 %5 mark -------------------------------------
 
@@ -48,9 +47,17 @@ a16 e'8 a,16 c8 g16 g~ g a16 a8 a8 r |
 
 \repeat unfold 4 {r1}
 \repeat unfold 3 {<f f'>1~}
+<f f'>                       |
+
+%6 mark -------------------------------------
+
+\mark \default
+
+\repeat unfold 4 {r1}
+\repeat unfold 3 {<f f'>1~}
 <f f'> 
 
-%6 mark --------------------------------------
+%7 mark --------------------------------------
 
 \mark \default
 
