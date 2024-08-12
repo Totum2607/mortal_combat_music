@@ -1,5 +1,11 @@
 \version "2.20.0"
+
+\include "globalSets.ly"
+\include "header.ly"
+
+
 drumsSet = \drummode{
+\globalSets
 \repeat unfold 8 {r1}
 
 %1 mark ------------------------------------------
@@ -51,6 +57,34 @@ drumsSet = \drummode{
 
 \mark \default
 
-\repeat unfold 8 {bd8 hhp bd hhp bd hhp bd hhp}
+\repeat unfold 8 {bd8 hhp <bd sn> hhp bd hhp <bd sn> hhp}
+
+%8 mark ------------------------------------------
+
+\mark \default
+
+\repeat unfold 7 {bd8 hhp <bd sn> hhp bd hhp <bd sn> hhp}
+                 bd8 hhp <bd sn> hhp sn16 16 16 16 16 16 16 16 |
+
+%9 mark ------------------------------------------
+
+\mark \default
+
+\repeat unfold 8 {bd4 4 4 4}
+
+%10 mark ------------------------------------------
+
+\mark \default
+
+\repeat unfold 4 {r1}
+
+\repeat unfold 4 {bd8 hhp bd hhp bd hhp bd hhp}
+
+%11 mark ------------------------------------------
+
+\mark \default
+
+\repeat unfold 8 {bd8 hhp <bd sn> hhp bd hhp <bd sn> hhp}
+
 
 }
