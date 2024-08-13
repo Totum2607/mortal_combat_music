@@ -4,7 +4,14 @@
 \include "header.ly"
 
 
-drumsSet = \drummode{
+drumsSet = \new DrumStaff \with 
+    {
+    instrumentName = "Ударные"
+    shortInstrumentName = "Уд."
+    }
+    {
+     
+\drummode{
 \globalSets
 \repeat unfold 8 {r1}
 
@@ -28,16 +35,23 @@ drumsSet = \drummode{
 
 \repeat unfold 8 {bd8 hhp <bd sn> hhp bd hhp <bd sn> hhp}
 
+%4 mark -------------------------------------
+
+\mark \default
+
+\repeat unfold 8 {bd8 hhp <bd sn> hhp bd hhp <bd sn> hhp}
+
+
 
 % Reptile Theme
 
-%4 mark ------------------------------------------
+%5 mark ------------------------------------------
 
 \mark \default
 
 \repeat unfold 8 {r1}
 
-%5 mark ------------------------------------------
+%6 mark ------------------------------------------
 
 \mark \default
 
@@ -47,32 +61,33 @@ drumsSet = \drummode{
                   hh   hh-> hh hh hh-> hh hh32-> hh hh hh |
 }
 
-%6 mark ------------------------------------------
+%7 mark ------------------------------------------
 
 \mark \default
 
 \repeat unfold 8 {bd8 hhp bd hhp bd hhp bd hhp}
 
-%7 mark ------------------------------------------
+%8 mark ------------------------------------------
 
 \mark \default
 
 \repeat unfold 8 {bd8 hhp <bd sn> hhp bd hhp <bd sn> hhp}
 
-%8 mark ------------------------------------------
+%9 mark ------------------------------------------
 
 \mark \default
 
 \repeat unfold 7 {bd8 hhp <bd sn> hhp bd hhp <bd sn> hhp}
                  bd8 hhp <bd sn> hhp sn16 16 16 16 16 16 16 16 |
 
-%9 mark ------------------------------------------
+%10 mark ------------------------------------------
 
 \mark \default
 
-\repeat unfold 8 {bd4 4 4 4}
+\repeat unfold 4 {bd4 4 4 4}
+\repeat unfold 4 {bd8 8 r8 hh r8 hh r8 hh}
 
-%10 mark ------------------------------------------
+%11 mark ------------------------------------------
 
 \mark \default
 
@@ -80,11 +95,32 @@ drumsSet = \drummode{
 
 \repeat unfold 4 {bd8 hhp bd hhp bd hhp bd hhp}
 
-%11 mark ------------------------------------------
+%12 mark ------------------------------------------
 
 \mark \default
 
 \repeat unfold 8 {bd8 hhp <bd sn> hhp bd hhp <bd sn> hhp}
 
+%13 mark -------------------------------------------
+
+\mark \default
+
+\repeat unfold 8 {r1}
+\bar "|."
+
 
 }
+
+    }
+
+% \headerOfPiece
+% \header {
+%   instrument = "Ударная установка"
+% }
+% \score {
+%   \new DrumStaff 
+%     {\drumsSet}
+% }
+% 
+
+

@@ -3,7 +3,14 @@
 \include "globalSets.ly"
 \include "header.ly"
 
-kontrabass = \relative{
+kontrabass = \new Staff \with {
+     instrumentName = "Балалайка контрабас"
+     shortInstrumentName = "Б. к-бас"
+     midiInstrument = "acoustic bass"
+      }
+       {
+        
+\relative{
 \globalSets
 \clef "bass"
 
@@ -42,11 +49,8 @@ a8. a16~ a8 a~ a16 a8. g8 c | a8. a16~ a8 a a16 a8 a16 a8 r |
 
 \mark \default
 
-\repeat unfold 4 {r1}
-f1~ |
-f1~ |
-f1~ |
-f1  |
+\repeat unfold 4 {a4 g a g   |
+                  a g a e8 g |}
 
 %5 mark -------------------------------------
 
@@ -58,28 +62,42 @@ f1~ |
 f1~ |
 f1  |
 
-
 %6 mark -------------------------------------
+
+\mark \default
+
+\repeat unfold 4 {r1}
+f1~ |
+f1~ |
+f1~ |
+f1  |
+
+
+%7 mark -------------------------------------
 
 \mark \default
 
 \repeat unfold 4 {f4 c' f, ges      |
                   f4 c' f, ges8 des |}
 
-%7 mark -------------------------------------
+%8 mark -------------------------------------
+
+\mark \default
 
 \repeat unfold 4 {f4 c' f, ges      |
                   f4 c' f, ges8 des |}
 
 
-%8 mark -------------------------------------
+%9 mark -------------------------------------
+
+\mark \default
 
 \repeat unfold 4 {f4 c' f, ges      |
                   f4 c' f, ges8 des |}
                 %  f4 c' f, ges      |
                 %  f4 c' e e, |
 
-%9 rehearsal mark --------------------------
+%10 rehearsal mark --------------------------
 
 \mark \default
 
@@ -93,7 +111,7 @@ a8 r8 r4 r2            |
 g8. 16~ 8 8~ 2         |
 f8. 16~ 8 8~ 16 8. 8 8 |
 
-%10 rehearsal mark --------------------------
+%11 rehearsal mark --------------------------
 
 \mark \default
 a8. a16~ a8 a~ a16 a8. g8 c |a8. a16~ a8 a~ a16 a8. g8 e |
@@ -101,10 +119,38 @@ a8. a16~ a8 a~ a16 a8. g8 c | a8. a16~ a8 a a16 a8 a16 a8 r |
 a8. a16~ a8 a~ a16 a8. g8 c |a8. a16~ a8 a~ a16 a8. g8 e |
 a8. a16~ a8 a~ a16 a8. g8 c | a8. a16~ a8 a a16 a8 a16 a8 r |
 
-%11 mark ------------------------------------
+%12 mark ------------------------------------
 
 \mark \default
 \repeat unfold 4 {a8. a  a8~ a2}
 \repeat unfold 4 {a8. e' bes8~ bes8 a bes e,}
 
+%13 mark -------------------------------------
+
+\mark \default
+
+a1~                   |
+a8 r8 r4 r2            |
+g1~                    |
+g8 r8 r4 r2            |
+a8. a16~ a8 a8~ a2~    |
+a8 r8 r4 r2            |
+g8. 16~ 8 8~ 2         |
+f8. 16~ 8 8~ 16 8. 8 8 |
+a8. 16~ 8 8 r2 \bar "|."
+
 }
+       }
+
+% \headerOfPiece
+% \header {
+%   instrument = "Контрабас" 
+% }
+% \score {
+%   
+%   \kontrabass
+% }
+% 
+% \layout {
+%  #(layout-set-staff-size 20) 
+% }

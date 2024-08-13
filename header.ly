@@ -2,7 +2,7 @@
 headerOfPiece = \header {
 
 title = "Mortal kombat"
-tagline = "Парафраз"
+tagline = ""
 copyright = "Парафраз"
 
 }
