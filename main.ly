@@ -24,7 +24,8 @@
                 >>
 
      \bayan
-     \dramsSet
+     \drumsSet
+  
 
 
 \new StaffGroup <<

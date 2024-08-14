@@ -105,7 +105,7 @@ drumsSet = \new DrumStaff \with
 
 \mark \default
 
-\repeat unfold 8 {r1}
+\repeat unfold 9 {r1}
 \bar "|."
 
 

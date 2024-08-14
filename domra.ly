@@ -133,7 +133,10 @@ a8. a16~ a8 a~ a16 a8. g8 c | a8. a16~ a8 a a16 a8 a16 a8 r |
 %12 mark ---------------------------------
 
 \mark \default
-\repeat unfold 4 {r1}
+
+a8. a16~ a8 a~ a16 a8. g8 c |a8. a16~ a8 a~ a16 a8. g8 e |
+a8. a16~ a8 a~ a16 a8. g8 c | a8. a16~ a8 a a16 a8 a16 a8 r |
+%\repeat unfold 4 {r1}
 %a4. g8 a4. g8 a4. g8 a4. g8  |
 %a4. g8 a4. g8 a4. g8 a4. g8   |
 a16 e'8 a,16 c8 a16 bes16~ bes a16 c8 bes16 c a8 |
