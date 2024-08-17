@@ -10,6 +10,7 @@ bayan = \new PianoStaff \with {
        instrumentName = "Баян"
        shortInstrumentName = "Б-н"
        midiInstrument = "harmonica"
+       
     } 
     <<
     
@@ -18,15 +19,19 @@ bayan = \new PianoStaff \with {
     
     >>
 
-% \headerOfPiece
-% \header {
-%   instrument = "Баян"
-% }
+\headerOfPiece
+\header {
+  instrument = "Баян"
+}
 % \score {
 %   
 %   \bayan
-% }
+% 
 % 
 % \layout {
-%  #(layout-set-staff-size 19) 
+%   \context {
+%     \PianoStaff
+%     \RemoveAllEmptyStaves
+%   }
 % }
+%}

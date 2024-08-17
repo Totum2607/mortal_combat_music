@@ -36,6 +36,11 @@
 >>
 
 
-\layout {}
+\layout {
+ %  \context {
+%     \DrumStaff
+%     \RemoveEmptyStaves
+%   }
+}
 \midi {}
 }

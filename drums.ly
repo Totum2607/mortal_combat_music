@@ -41,6 +41,10 @@ drumsSet = \new DrumStaff \with
 
 \repeat unfold 8 {bd8 hhp <bd sn> hhp bd hhp <bd sn> hhp}
 
+\mark \default
+
+\repeat unfold 8 {bd8 hhp <bd sn> hhp bd hhp <bd sn> hhp}
+
 
 
 % Reptile Theme
@@ -105,8 +109,11 @@ drumsSet = \new DrumStaff \with
 
 \mark \default
 
-\repeat unfold 9 {r1}
+\repeat unfold 8 {r1}
+\repeat unfold 4 {r1}
+
 \bar "|."
+
 
 
 }

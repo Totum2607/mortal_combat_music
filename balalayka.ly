@@ -56,7 +56,12 @@ r8 <e a c> <e a c> r <e a c> r16 <e a c>~ <e a c> r <e a c> <e a c> |
 
 \mark \default
 
-\repeat unfold 8 {r1}
+\repeat unfold 8 {<a c e>8. 16~ 8 8 r2}
+
+
+\mark \default
+
+\repeat unfold 8 {<a c e>8. 16~ 8 8 r2}
 
 
 % Reptile Theme
@@ -159,9 +164,15 @@ r8 <e a c> <e a c> r <e a c> r16 <e a c>~ <e a c> r <e a c> <e a c> |
 <e a>8 r8 r4 r2            |
 <g b>8. 16~ 8 8~ 2         |
 <f a>8. 16~ 8 8~ 16 8. 8 8 |
-<e a>8. 16~ 8 8 r2         |
+
+<e c' a'>8. 16~ 8 8~ 16 8. <d' g>8 <d c'> |<e, c' a'>8. 16~ 8 8~ 16 8. <d' g>8 <d e> |
+<e, c' a'>8. 16~ 8 8~ 16 8. <d' g>8 <d c'> | <e, c'a'>8. 16~ 8 8 16 8 16 8 r |
 
 \bar "|."
+
+%<e a>8. 16~ 8 8 r2         |
+
+
 
 
 }

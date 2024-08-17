@@ -39,8 +39,18 @@ a16 e'8 a,16 c8 g16 g~ g a16 a8 a8 r |
 
 \mark \default
 
-\repeat unfold 4 {<a c e>8. 16~ 8 8 r2}
-\repeat unfold 4 {<a c e a>8. 16~ 8 8 r8 <c e a c>4 <e, a c e>8 }
+      gis'1~                | 2.~ 16 e g a       |
+      <c, g' a c>4. <a e' g a>8 r4 es'16 d c a | c8 r8 r4 r8 a' c d |
+      r4 c8 <e, g b>~ 2~          | 4~ 16 e g a <e  g b>2    |
+      r4 b'16 a e a <e g b>4. <c g' a c>8~ | 2 r8 a'8 c d       |
+\mark \default
+      <a d es>4 4 4 d16 c a8~    | 4 r8 g8~ 8 a8 c d  |
+      <a d es>4 4 4 d16 c a8     | r2 a8( c) c( d)    |
+      r4 c8 a'~ 2~         | 2 c~               | 
+      c2~ 4. a8~           | a1                 |
+
+% \repeat unfold 4 {<a c e>8. 16~ 8 8 r2}
+% \repeat unfold 4 {<a c e a>8. 16~ 8 8 r8 <c e a c>4 <e, a c e>8 }
 
 
 
@@ -53,7 +63,7 @@ a16 e'8 a,16 c8 g16 g~ g a16 a8 a8 r |
 \mark \default
 
 \repeat unfold 4 {r1}
-\repeat unfold 3 {<f f'>1~ }
+\repeat unfold 3 {<f,, f'>1~ }
 <f f'>
 
 %6 mark -------------------------------------
@@ -138,10 +148,17 @@ g g b g c g d' c  | f, f a f c' f, c' b |
 a8 a c a d a e' d | c c e c g' c, e c   |
 g g b g c g d' c  | f, f a f c' f, c' b | 
 
-<a c e a>8. 16~ 8 8 r2 |
+<a, c e a>8. 16~ 8~ 16 8 8. <g c e g>8 <c e g c> |
+<a c e a>8. 16~ 8~ 16 8 8. <g c e g>8 <e g c e> |
+<a c e a>8. 16~ 8~ 16 8 8. <g c e g>8 <c e g c> |
+<a c e a>8. 16~ 8  16 8 8 16 8 r |
+
+
+\bar "|."
+%<a c e a>8. 16~ 8 8 r2 |
 
   }
 
-\bar "|."
+
 
 }
