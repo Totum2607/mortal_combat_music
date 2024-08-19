@@ -5,8 +5,8 @@
 
 
 balalayka = \new Staff \with {
-       instrumentName = "Балалайка"
-       shortInstrumentName = "Б. пр."
+    %    instrumentName = "Балалайка"
+%        shortInstrumentName = "Б. пр."
        midiInstrument = "acoustic guitar (nylon)"
        }
        {
@@ -178,15 +178,21 @@ r8 <e a c> <e a c> r <e a c> r16 <e a c>~ <e a c> r <e a c> <e a c> |
 }
        }
 
-% \headerOfPiece
-% \header {
-% instrument = "Балалайка прима"
-% }
-% \score {
-%   
-%   \balalayka
-% }
-% \layout {
-%  #(layout-set-staff-size 15) 
-% }
-
+\headerOfPiece
+\header {
+instrument = "Балалайка прима"
+}
+\score {
+  
+  \balalayka
+}
+\layout {
+ #(layout-set-staff-size 15) 
+}
+\paper {
+  system-system-spacing =
+    #'((basic-distance . 11) 
+       (minimum-distance . 4)
+       (padding . 2)
+       (stretchability . 60)) % defaults: 12, 8, 1, 60
+}

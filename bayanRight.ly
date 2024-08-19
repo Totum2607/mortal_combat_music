@@ -46,8 +46,8 @@ a16 e'8 a,16 c8 g16 g~ g a16 a8 a8 r |
 \mark \default
       <a d es>4 4 4 d16 c a8~    | 4 r8 g8~ 8 a8 c d  |
       <a d es>4 4 4 d16 c a8     | r2 a8( c) c( d)    |
-      r4 c8 a'~ 2~         | 2 c~               | 
-      c2~ 4. a8~           | a1                 |
+      r4 c8 <a c e g a>~ 2~         | 2 <c e g c>~               | 
+      2~ 4. <a c e g a>8~           | 1                 |
 
 % \repeat unfold 4 {<a c e>8. 16~ 8 8 r2}
 % \repeat unfold 4 {<a c e a>8. 16~ 8 8 r8 <c e a c>4 <e, a c e>8 }
@@ -63,7 +63,7 @@ a16 e'8 a,16 c8 g16 g~ g a16 a8 a8 r |
 \mark \default
 
 \repeat unfold 4 {r1}
-\repeat unfold 3 {<f,, f'>1~ }
+\repeat unfold 3 {<f, f'>1~ }
 <f f'>
 
 %6 mark -------------------------------------
@@ -148,10 +148,10 @@ g g b g c g d' c  | f, f a f c' f, c' b |
 a8 a c a d a e' d | c c e c g' c, e c   |
 g g b g c g d' c  | f, f a f c' f, c' b | 
 
-<a, c e a>8. 16~ 8~ 16 8 8. <g c e g>8 <c e g c> |
-<a c e a>8. 16~ 8~ 16 8 8. <g c e g>8 <e g c e> |
-<a c e a>8. 16~ 8~ 16 8 8. <g c e g>8 <c e g c> |
-<a c e a>8. 16~ 8  16 8 8 16 8 r |
+<a, c e a>8. 16~ 8 8~ 16 8. <g c e g>8 <c e g c> |
+<a c e a>8. 16~ 8 8~ 16 8. <g c e g>8 <e g c e> |
+<a c e a>8. 16~ 8 8~ 16 8. <g c e g>8 <c e g c> |
+<a c e a>8. 16~ 8  8 16 8 16 8 r |
 
 
 \bar "|."

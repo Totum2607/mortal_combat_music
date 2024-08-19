@@ -4,8 +4,8 @@
 \include "header.ly"
 
 kontrabass = \new Staff \with {
-     instrumentName = "Балалайка контрабас"
-     shortInstrumentName = "Б. к-бас"
+    %  instrumentName = "Балалайка контрабас"
+%      shortInstrumentName = "Б. к-бас"
      midiInstrument = "acoustic bass"
       }
        {
@@ -155,15 +155,22 @@ a8. a16~ a8 a~ a16 a8. g8 c | a8. a16~ a8 a a16 a8 a16 a8 r |
 }
        }
 
-% \headerOfPiece
-% \header {
-%   instrument = "Контрабас" 
-% }
-% \score {
-%   
-%   \kontrabass
-% }
-% 
-% \layout {
-%  #(layout-set-staff-size 20) 
-% }
+\headerOfPiece
+\header {
+  instrument = "Контрабас" 
+}
+\score {
+  
+  \kontrabass
+}
+
+\layout {
+ #(layout-set-staff-size 20) 
+}
+\paper {
+  system-system-spacing =
+    #'((basic-distance . 14) 
+       (minimum-distance . 4)
+       (padding . 2)
+       (stretchability . 60)) % defaults: 12, 8, 1, 60
+}

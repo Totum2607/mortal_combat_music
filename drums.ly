@@ -6,8 +6,8 @@
 
 drumsSet = \new DrumStaff \with 
     {
-    instrumentName = "Ударные"
-    shortInstrumentName = "Уд."
+   %  instrumentName = "Ударные"
+%     shortInstrumentName = "Уд."
     }
     {
      
@@ -120,14 +120,21 @@ drumsSet = \new DrumStaff \with
 
     }
 
-% \headerOfPiece
-% \header {
-%   instrument = "Ударная установка"
-% }
-% \score {
+\headerOfPiece
+\header {
+  instrument = "Ударная установка"
+}
+\score {
 %   \new DrumStaff 
-%     {\drumsSet}
-% }
-% 
+    {\drumsSet}
+}
+
+\paper {
+  system-system-spacing =
+    #'((basic-distance . 14) 
+       (minimum-distance . 4)
+       (padding . 2)
+       (stretchability . 60)) % defaults: 12, 8, 1, 60
+}
 
 

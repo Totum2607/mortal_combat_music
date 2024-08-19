@@ -6,7 +6,9 @@
 
 bayanLeft = \new Staff 
 {
+  
   \relative c'' {
+   
 
 \globalSets
 \clef "bass"

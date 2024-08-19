@@ -5,8 +5,8 @@
 
 
 domra = \new Staff \with {
-       instrumentName = "Домра малая"
-       shortInstrumentName = "Д. м."
+     %   instrumentName = "Домра малая"
+%        shortInstrumentName = "Д. м."
        midiInstrument = "violin"
       } 
       {
@@ -178,15 +178,23 @@ a16 e'8 a,16 c8 g16 g~ g a16 a8 a8 r |
 }
 }
  
-% \headerOfPiece
-% \header {
-%   instrument = "Домра малая"
-% }
-% \score {
-%   
-%   \domra
-% }
-% 
-% \layout {
-%  #(layout-set-staff-size 17) 
-% }
+\headerOfPiece
+\header {
+  instrument = "Домра малая"
+}
+\score {
+  
+  \domra
+}
+
+\layout {
+ 
+}
+
+\paper {
+  system-system-spacing =
+    #'((basic-distance . 11) 
+       (minimum-distance . 4)
+       (padding . 2)
+       (stretchability . 60)) % defaults: 12, 8, 1, 60
+}

@@ -5,8 +5,8 @@
 
 
 alt   = \new Staff \with {
-       instrumentName = "Домра альт"
-       shortInstrumentName = "Д. а."
+     %  instrumentName = "Домра альт"
+    %   shortInstrumentName = "Д. а."
        midiInstrument = "banjo"
        }
        {
@@ -169,11 +169,12 @@ r1                                |
 }
        }
 
-% \headerOfPiece
-% \header {
-%  instrument = "Домра альт"
-% }
-% \score {
-%   
-%   \alt
-% }
+\headerOfPiece
+\header {
+ instrument = "Домра альт"
+ 
+}
+\score {
+  
+  \alt
+}

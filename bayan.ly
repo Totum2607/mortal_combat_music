@@ -7,8 +7,8 @@
 
 
 bayan = \new PianoStaff \with {
-       instrumentName = "Баян"
-       shortInstrumentName = "Б-н"
+       % instrumentName = "Баян"
+%        shortInstrumentName = "Б-н"
        midiInstrument = "harmonica"
        
     } 
@@ -16,22 +16,30 @@ bayan = \new PianoStaff \with {
     
      \bayanRight
      \bayanLeft
-    
+   
     >>
 
 \headerOfPiece
 \header {
   instrument = "Баян"
 }
-% \score {
-%   
-%   \bayan
-% 
-% 
-% \layout {
-%   \context {
-%     \PianoStaff
-%     \RemoveAllEmptyStaves
-%   }
-% }
-%}
+\score {
+  
+  \bayan
+
+
+\layout {
+  
+}
+
+
+}
+
+
+\paper {
+  system-system-spacing =
+    #'((basic-distance . 14) 
+       (minimum-distance . 4)
+       (padding . 2)
+       (stretchability . 60)) % defaults: 12, 8, 1, 60
+}
